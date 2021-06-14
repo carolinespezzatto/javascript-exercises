@@ -1,0 +1,20 @@
+#search{
+    background-color: rgb(64, 107, 250);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    width: 30em;
+    height: 15em;
+    padding: 2.5em 1.5em;
+    border-radius: 0.5em;
+}
+#search__text{
+    background-color: rgb(51, 73, 138); 
+    color: rgb(255, 255, 255);
+    margin-top: 2.5em;
+    margin-left: 1.5em;
+    width: 19em;
+    height: 2.2em;
+    border: 1em;
+    border-radius: 1em;  
+}

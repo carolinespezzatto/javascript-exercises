@@ -1,0 +1,40 @@
+.btn-one{
+    background-color:rgb(209, 56, 89); 
+}
+.btn-two{
+    background-color:rgb(208, 136, 28);   
+}
+.btn-three{
+    background-color:rgb(80, 144, 226);   
+}
+.btn-four{
+    background-color:rgb(146, 109, 189);   
+}
+.btn-five{
+    background-color:rgb(88, 206, 131);   
+}
+section{
+    text-align: center;   
+}
+#buttons{
+    text-align: center;   
+}
+#quote{
+    width: 42em;
+    height: 15em;
+    margin-top: 13em;
+    margin-left: 20em;
+    position: relative;   
+}
+#text {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+#text__description{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif,Arial, Helvetica, sans-serif ;
+}
+#text__author{
+    margin-left: 22em;
+    font-size: 1.3rem;
+}
