@@ -1,0 +1,57 @@
+body {
+    color:black;
+    background-color:rgb(255, 255, 255);
+
+}
+input[type="checkbox"]{
+    width: 80px;
+    height: 40px;
+    appearance: none;
+    background-color: rgb(204, 204, 204);
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+}
+input[type="checkbox"]:before{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(131, 131, 131);
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;    
+}
+input:checked[type="checkbox"]{
+    background: purple; 
+}
+input:checked[type="checkbox"]:before{
+    left: 40px;
+}
+#buttons{
+    display: grid;
+    margin-left: 550px;
+    margin-top: 300px;
+    width: 100px;
+    height: 10px;
+}
+#text{
+    display: grid;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 292px;
+    font-size: 16px;
+}
+.mypage{
+    display: flex ;
+    width: 100px;
+    margin-top: 30px;
+}
+#h1{
+    font-size: 28px;
+    display: inline;
+    margin-left: 400px;
+    top: 200px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,52 @@
+#youtube{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(147, 68, 167);
+}
+#enter{
+    width: 500px;
+    height: 95px;
+    border-radius: 3px;
+    border: none;
+}
+.container{
+    width: 750px;
+    height:120px;
+    background-color: white;
+    margin-top: 2px;
+    margin-left: 270px;
+    padding: 15px 20px;
+}
+body{
+    background: rgb(216, 216, 216); 
+}
+#btn-one, #btn-two{
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    cursor: pointer;
+    border-width: 1px;
+}
+.number{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 14px;
+
+}
+.votes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#frase{
+    position: relative;
+    display: flexbox;
+    margin-top: -125px;
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#frase-sug{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 270px;
+}

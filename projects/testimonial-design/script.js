@@ -36,4 +36,3 @@ btnFive.onclick = function(){
   textDescription.innerHTML = ("I hired Florin Pop based on others positive experiences, and I understand why he's so highly rated. His code is very clean, he communicates well, and he likes to offer alternative solutions.")
   textAuthor.innerHTML = ("J. KENT PEPPER")
 } 
-

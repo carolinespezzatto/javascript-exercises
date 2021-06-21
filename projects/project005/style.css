@@ -1,0 +1,33 @@
+.container-one, .container-two, 
+.container-three, .container-four,.container-five {
+    display: none;
+}
+
+#btn-one, #btn-two, #btn-three, #btn-four, #btn-five{
+    margin-left: 580px;
+    border: none;
+    margin-bottom: 28px;
+}
+
+.section{
+    border: solid 1px;
+    border-radius: 10px;
+    position: relative;
+    width: 650px;  
+    margin-left: 350px;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+
+#main h1{
+    text-align: center;
+}
+#main h2{
+    display: inline;
+}
+button{
+    border: none;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}

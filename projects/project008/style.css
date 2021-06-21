@@ -1,0 +1,37 @@
+body {
+    color:black;
+    background-color:rgb(255, 255, 255);
+}
+.night{
+    color:white;
+    background-color:black;
+}
+#checkbox{
+    margin: 270px 600px;
+    position: absolute;
+    background-image: url('sun.svg');
+}
+input[type="checkbox"]{
+    width: 80px;
+    height: 40px;
+    appearance: none;
+    background-color: rgb(204, 204, 204);
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+}
+input[type="checkbox"]:before{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(131, 131, 131);
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    
+}
+input:checked[type="checkbox"]:before{
+    left: 40px;
+}
+
